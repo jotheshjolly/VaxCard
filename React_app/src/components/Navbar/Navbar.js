@@ -29,11 +29,20 @@ function Navbar() {
                     </li>
                     <li className='nav-item'>
                         <Link
-                            to='/classes'
+                            to='/record'
                             className='nav-links'
                             onClick={closeMobileMenu}
                         >
-                            Class
+                            Vaccination Records
+                        </Link>
+                    </li>
+                    <li className='nav-item'>
+                        <Link
+                            to='/upcomming'
+                            className='nav-links'
+                            onClick={closeMobileMenu}
+                        >
+                            Upcomming Vaccination
                         </Link>
                     </li>
                     <li className='nav-item'>

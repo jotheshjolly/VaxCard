@@ -5,7 +5,6 @@ import Home from './components/Home/Home';
 import HomeHi from './components/Home/HomeHi';
 import VaxRecord from "./components/VaxRecord/VaxRecord"
 import UpComming from "./components/UpComming/UpCommingVax"
-import Chatbot from "./components/Chatbot/Chatbot"
 import Fade from 'react-reveal/Fade';
 
 function App() {
@@ -15,7 +14,6 @@ function App() {
       <Fade top>
         <Navbar />
       </Fade>
-      <Chatbot />
       <Switch>
         <Route path='/' exact component={Home} />
         <Route path='/record' exact component={VaxRecord} />
